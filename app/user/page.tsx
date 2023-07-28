@@ -28,3 +28,5 @@ export default function User() {
     </div>
   )
 }
+
+export const runtime = 'edge';
