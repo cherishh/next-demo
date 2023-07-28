@@ -9,6 +9,7 @@ export default function Home() {
         <Link href="/user">user</Link>
         <Link href="/product">product</Link>
         <Link href="/about">about</Link>
+        <Link href="/api/auth/signout">signout</Link>
       </nav>
     </main>
   )
