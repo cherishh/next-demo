@@ -1,5 +1,12 @@
 import Link from "next/link"
 import { headers } from 'next/headers'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'USER DEMO',
+  description: '这是一个user 页面demo，用来测试next meta',
+}
+
 
 export default function User() {
   const headersList = headers()
