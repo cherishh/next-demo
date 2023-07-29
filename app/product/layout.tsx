@@ -16,3 +16,5 @@ export default function ProductLayout({
     </div>
   )
 }
+
+export const runtime = 'edge';

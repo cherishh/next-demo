@@ -17,3 +17,5 @@ export default function AboutLayout({
     </div>
   )
 }
+
+export const runtime = 'edge';
